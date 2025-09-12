@@ -43,4 +43,39 @@ print(test2)
 print("\n==== Modulus practical uses ===")
 
 
+# 1. Check if a number is even or odd
+print("\n==== Detect even/odd in a python list ===")
 
+for num in [23, 21, 3, 5, 6, 10, 12, 13, 7]:
+    if num % 2 == 0:
+        print(f"{num} is even")
+    else:
+        print(f"{num} is odd")
+
+# 2. Divisibilty check
+print("\n==== Check if a number is divisible by another ===")
+number = 25
+for divisor in [2, 4, 6, 9, 10, 25]:
+    if number % divisor == 0:
+        print(f"{number} is divisble by {divisor}")
+    else:
+        print(f"{number} is not divisible by {divisor}")
+
+# 3. Extract digits from right (?)
+print("\n==== Extracting digits from right using modulus ===")
+number_to_exract_digits_from = 33123124
+print(f"Original number: {number_to_exract_digits_from}")
+print(f"Last digit: {number_to_exract_digits_from % 10}")
+print(f"Last two digits: {number_to_exract_digits_from % 100}")
+print(f"Last three digits: {number_to_exract_digits_from % 1000}")
+
+
+# 4. Cycling through days
+print("\n==== Cycling through days ===")
+days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+start_day = 0 #monday
+print("\nShow next 10 days -->")
+
+for i in range(10):
+    day_index = (start_day + i) % 7
+    print(f"Day {i}: {days[day_index]} --- i is: {i} --- day_index is {day_index} so 0 + {i} % 7 will be {day_index}")
