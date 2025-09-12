@@ -1,12 +1,19 @@
 # Think Python Progress Tracker
 ## Current Status
 - **Current Chapter**: Chapter 5
-- **Current Section**: Section 5.1
-- **Last Completed**: Ready to begin Chapter 5
-- **Next Target**: Floor Division and Modulus operators
+- **Current Section**: Section 5.2
+- **Last Completed**: Section 5.1 - Floor Division and Modulus
+- **Next Target**: Boolean Expressions
 
 ## Short notes from the last session on what we did and where we are:
-Starting Chapter 5: Conditionals and Recursion. User has completed chapters 1-4 and is ready to learn about conditional execution, boolean expressions, and recursive functions. We'll focus on hands-on coding and practical understanding of each concept.
+Completed Section 5.1 on Floor Division and Modulus operators. User successfully implemented practical examples including even/odd detection, divisibility testing, digit extraction, and cycling through days. Code is working well and pushed to repo. User has good understanding of // and % operators. 
+
+PENDING: User still needs to answer these "Test Your Understanding" questions from Section 5.1 before moving to Section 5.2:
+1. How would you check if a year is divisible by 4 (leap year check)?
+2. If you have 37 items and want to put them in groups of 5, how many complete groups do you get and how many items are left over?
+3. How could you use modulus to create a "wrap-around" effect in a game?
+
+Next session should start with answering these questions, then move to Section 5.2: Boolean Expressions (True/False values, comparison operators ==, !=, >, <, >=, <=, and the bool type). User understands the modulus concepts well but found the cycling through days and digit extraction examples needed a fresh look to fully click.
 
 ## Book Overview
 Think Python consists of 21 chapters covering:
@@ -22,7 +29,7 @@ Think Python consists of 21 chapters covering:
 - [✅] Chapter 3: Functions (COMPLETED)
 - [✅] Chapter 4: Case Study: Interface Design (COMPLETED)
 - [ ] Chapter 5: Conditionals and Recursion
-  - [ ] Section 5.1: Floor Division and Modulus
+  - [✅] Section 5.1: Floor Division and Modulus (COMPLETED)
   - [ ] Section 5.2: Boolean Expressions
   - [ ] Section 5.3: Logical Operators
   - [ ] Section 5.4: Conditional Execution
@@ -38,4 +45,4 @@ Think Python consists of 21 chapters covering:
 - [ ] Chapter 6: Fruitful Functions
 ... (continue for remaining chapters)
 
-*Last Updated*: Starting Chapter 5 - Friday, September 12, 2025
+*Last Updated*: Completed Section 5.1 - Friday, September 12, 2025
