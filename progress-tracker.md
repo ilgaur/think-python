@@ -2,18 +2,21 @@
 ## Current Status
 - **Current Chapter**: Chapter 5
 - **Current Section**: Section 5.2
-- **Last Completed**: Section 5.1 - Floor Division and Modulus
+- **Last Completed**: Section 5.1 - Floor Division and Modulus (FULLY COMPLETED)
 - **Next Target**: Boolean Expressions
 
 ## Short notes from the last session on what we did and where we are:
-Completed Section 5.1 on Floor Division and Modulus operators. User successfully implemented practical examples including even/odd detection, divisibility testing, digit extraction, and cycling through days. Code is working well and pushed to repo. User has good understanding of // and % operators. 
+COMPLETED Section 5.1 entirely! User successfully:
+- Answered all 3 "Test Your Understanding" questions 
+- Implemented leap year checking with modulus
+- Solved grouping problems using floor division and modulus
+- Built wrap-around game logic from scratch, line by line
+- Demonstrated deep understanding of modulus creating cyclic behavior
+- Updated NOTES.md with excellent explanations of wrap-around effects
 
-PENDING: User still needs to answer these "Test Your Understanding" questions from Section 5.1 before moving to Section 5.2:
-1. How would you check if a year is divisible by 4 (leap year check)?
-2. If you have 37 items and want to put them in groups of 5, how many complete groups do you get and how many items are left over?
-3. How could you use modulus to create a "wrap-around" effect in a game?
+User's explanation of wrap-around was spot-on: "modulus gives the remainder after division which is exactly how much after full cycle has been forward we should go forward." Ready to start Section 5.2: Boolean Expressions.
 
-Next session should start with answering these questions, then move to Section 5.2: Boolean Expressions (True/False values, comparison operators ==, !=, >, <, >=, <=, and the bool type). User understands the modulus concepts well but found the cycling through days and digit extraction examples needed a fresh look to fully click.
+NEXT SESSION: Start Section 5.2 covering True/False values, comparison operators (==, !=, >, <, >=, <=), and the bool type. All Section 5.1 review questions are now complete.
 
 ## Book Overview
 Think Python consists of 21 chapters covering:
@@ -29,7 +32,7 @@ Think Python consists of 21 chapters covering:
 - [✅] Chapter 3: Functions (COMPLETED)
 - [✅] Chapter 4: Case Study: Interface Design (COMPLETED)
 - [ ] Chapter 5: Conditionals and Recursion
-  - [✅] Section 5.1: Floor Division and Modulus (COMPLETED)
+  - [✅] Section 5.1: Floor Division and Modulus (COMPLETED - Including all review questions)
   - [ ] Section 5.2: Boolean Expressions
   - [ ] Section 5.3: Logical Operators
   - [ ] Section 5.4: Conditional Execution
@@ -45,4 +48,4 @@ Think Python consists of 21 chapters covering:
 - [ ] Chapter 6: Fruitful Functions
 ... (continue for remaining chapters)
 
-*Last Updated*: Completed Section 5.1 - Friday, September 12, 2025
+*Last Updated*: Section 5.1 FULLY COMPLETED with all review questions - September 29, 2025
