@@ -1,48 +1,43 @@
-# Section 5.2: Boolean Expressions
-# Learning about True/False values and comparison operators
+# Section 5.2: Logical Operators
+# Experiment with and, or, not
 
-print("=== Basic Boolean Values ===")
-print(True)
-print(False)
-print(type(True))
-print(type(False))
+print("=== Logical Operators ===\n")
 
-print("\n=== Comparison Operators ===")
-# Equal to (==)
-print("5 == 5:", 5 == 5)
-print("5 == 3:", 5 == 3)
+# 1. AND operator - both must be true
 
-# Not equal to (!=)
-print("5 != 3:", 5 != 3)
-print("5 != 5:", 5 != 5)
+print("True and True:", True and True)
+print("True and False:", True and False)
+print("False and True:", False and True)
+print("False and False", False and False)
+print()
 
-# Greater than (>)
-print("5 > 3:", 5 > 3)
-print("3 > 5:", 3 > 5)
+# 2. OR Operator - at least one must be true
+print("2. OR operator:")
+print("True or True:", True or True)
+print("True or False:", True or False)
+print("False or True:", False or True)
+print("False or False:", False or False)
 
-# Less than (<)
-print("3 < 5:", 3 < 5)
-print("5 < 3:", 5 < 3)
+# 3. NOT operator - flips the value
+print("3. NOT operator:")
+print("not True:", not True)
+print("not False:", not False)
+print()
 
-# Greater than or equal to (>=)
-print("5 >= 5:", 5 >= 5)
-print("5 >= 3:", 5 >= 3)
-print("3 >= 5:", 3 >= 5)
 
-# Less than or equal to (<=)
-print("3 <= 5:", 3 <= 5)
-print("5 <= 5:", 5 <= 5)
-print("5 <= 3:", 5 <= 3)
+# Examples
 
-print("\n=== Comparing Strings ===")
-print("'apple' == 'apple':", 'apple' == 'apple')
-print("'apple' == 'banana':", 'apple' == 'banana')
-print("'apple' < 'banana':", 'apple' < 'banana')  # Alphabetical order
+# Check to see if a number is in a range (between 10 and 20)
 
-print("\n=== Boolean with Variables ===")
-x = 10
-y = 20
-print(f"x = {x}, y = {y}")
-print(f"x == y: {x == y}")
-print(f"x < y: {x < y}")
-print(f"x != y: {x != y}")
+x = 15
+
+print("Is X bigger than 10 and smaller than 20?", x > 10 and x < 20)
+
+n = 12
+
+print("Check to see if a number is divisble by 2 or 3", n % 2 == 0 and n % 3 == 0)
+
+
+n = 5
+
+print("Check to see if a number is not negative:", not n < 0)
