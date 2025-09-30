@@ -35,7 +35,7 @@ print("Is X bigger than 10 and smaller than 20?", x > 10 and x < 20)
 
 n = 12
 
-print("Check to see if a number is divisble by 2 or 3", n % 2 == 0 and n % 3 == 0)
+print("Check to see if a number is divisble by 2 or 3", n % 2 == 0 or n % 3 == 0)
 
 
 n = 5
